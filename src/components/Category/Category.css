@@ -1,0 +1,106 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    position: relative;
+}
+.head1 h5{
+    font-size: 30px;
+    font-weight: 400;
+    color: #f54c65;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.head2 h2{
+    font-size: 52px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+.head2 span{
+    color: #1AB79D;
+}
+.category .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 500px;
+    margin-top: 50px;
+    color: #000;
+    padding: 50px;
+    gap: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 40px;
+    transition: 0.5s ease-in-out;
+}
+.category .card:hover{
+    transform: scale(1.09);
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon1{
+    background-color: #1AB79D1A;
+}
+.icon2{
+    background-color: #EE49621A;
+}
+.icon3{
+    background-color: #4461e41a;
+}
+.icon4{
+    background-color: #f8b7201a;
+}
+.card h3{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 28px;
+}
+.card p{
+    font-weight: 300;
+}
+.card1{
+    background-color: #1AB79D1A;
+}
+.card2{
+    background-color: #faf2f3;
+}
+.card3{
+    background-color: #4461e41a;
+}
+.card4{
+    background-color: #f8b7201a;
+}
+.courses1, .courses2, .courses3 , .courses4{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+.courses1{
+    background-color: #1AB79D1A;
+    color: #1AB79D;
+}
+.courses2{
+    background-color: #EE49621A;
+    color: #EE4962;
+}
+.courses3{
+background-color: #4461e41a;
+color: #4461e4;
+}
+.courses4{
+    background-color: #f8b7201a;
+    color: #f8b720;
+}

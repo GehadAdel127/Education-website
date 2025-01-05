@@ -1,0 +1,55 @@
+.footer{
+    background-image: url('../images/footer-bg.png');
+    background-color: #131212;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px;
+}
+.footer .card{
+    color: #b6b4b4;
+    display: flex !important;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    width: auto !important;
+    line-height: normal;
+}
+.footer .card img{
+    width: 200px;
+}
+.footer h3{
+    color: #fff;
+}
+.footer a{
+    text-decoration: none;
+    color: #b6b4b4;
+    transition: 0.3s ease-in-out;
+    text-transform: capitalize;
+}
+.footer a:hover{
+    color: #1AB79D;
+}
+.footer p{
+    font-size: 22px;
+}
+.contact{
+    width: 36% !important;
+}
+.email{
+    display: flex;
+}
+.email input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.contac{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    font-size: 26px;
+}
+i{
+    cursor: pointer;
+}

@@ -1,0 +1,113 @@
+.blog{
+    width: 100%;
+    padding: 50px !important;
+    margin-bottom: 150px;
+    background-image: url('../images/hero-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head1{
+    margin-top: 80px;
+}
+.head1 h3{
+    font-size: 40px;
+    font-weight: 500;
+    color: #1AB79D;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.head2 h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: #808080;
+    text-transform: uppercase;
+}
+.blog .card{
+    height: 600px;
+    padding: 0px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+.card .arrow{
+    z-index: 91;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #1AB79D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 52%;
+    right: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.card .arrow:hover{
+    background-color: #EE4962;
+}
+.arrow i{
+    color: #fff;
+    font-size: 20px;
+}
+.blog .card img{
+    border-radius: 10px;
+    width: 100%;
+}
+.box{
+    z-index: 90;
+    background-color: #fff;
+    padding: 30px;
+    position: absolute;
+    left: 15px;
+    bottom: 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    text-align: start;
+    width: 92%;
+    line-height: normal;
+    gap: 20px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.box:hover{
+    transform: scale(1.09);
+}
+.box h3{
+    color: #808080;
+    font-size: 30px;
+    font-weight: 200 !important;
+}
+.box h2{
+    font-size: 22px;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+}
+.box h2:hover{
+    color: #1AB79D;
+}
+.date{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.date i{
+    color: #1AB79D;
+}
+.date p{
+    color: #000 !important;
+}
+.box p{
+    color: #808080;
+    line-height: 1;
+}
